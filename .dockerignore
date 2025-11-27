@@ -1,0 +1,19 @@
+# Ignore Python cache files and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment directories
+.venv/
+venv/
+env/
+
+# Ignore Git metadata
+.git
+.gitignore
+
+# Ignore temporary files
+*.log
+.DS_Store
+# Exclude the Dockerfile itself; it will be copied explicitly
+Dockerfile
